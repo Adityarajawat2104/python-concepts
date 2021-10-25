@@ -3,10 +3,11 @@
 # Subtraction:    3 - 2
 # Multiplication: 3 * 2
 # Division:       3 / 2 - 1.5
-# Floor Division: 3 // 2 - 1
-# Exponent:       3 ** 2
-# Modulus:        3 % 2
+# Floor Division: 5 // 2 - 2 (number of times the divisions can be done)
+# Exponent (to the power): print(3 ** 2)
+# Modulus:        5 % 2 - 1 (remainder after divisions)
 # increment / multi/dev/sub num += 1
+
 num = 5
 num += num
 print(num)
