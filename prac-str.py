@@ -25,7 +25,7 @@ print("Hey" in s) # in operator is used to check if substr exist in string (Case
 
 # print(s.index("z")) # give index of 1st occurence of the char/str, throws value error if not present
 # print(s.find("z")) # give index of 1st occurence of the char/str, returns -1 if not present
-
+# print(s.count("z")) # give number of occurence of the char/str, returns 0 if not present
 
 str1 = "hello"
 str2 = "world"
@@ -59,6 +59,9 @@ print('One'.isalpha())
 
 print('1'.isalnum())
 print('hey1'.isalnum())
+
+print('1'.isnumeric())
+print('hey1'.isnumeric())
 
 # string.lstrip() #=> 'string of whitespace    '
 # string.rstrip() #=> '  string of whitespace'
