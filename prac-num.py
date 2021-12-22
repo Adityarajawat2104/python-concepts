@@ -7,6 +7,7 @@
 # Exponent (to the power): print(3 ** 2)
 # Modulus:        5 % 2 - 1 (remainder after divisions)
 # increment / multi/dev/sub num += 1
+# is operator check if the variables points to the same object ex a = 2 and b = 2 then a is b is true
 
 num = 5
 num += num
