@@ -35,3 +35,15 @@ print(int(num1) + float(num2)) #casting from str to int
 # Less Than:        3 < 2
 # Greater or Equal: 3 >= 2
 # Less or Equal:    3 <= 2
+
+in Evaluates to true if it finds a variable in the specified sequence and false otherwise.
+x in y, here in results ina 1 if x is a member of sequence y.
+
+not in Evaluates to true if it does notfinds a variable in the specified sequence and false otherwise. 
+x not in y, here not in resul
+
+is Evaluates to true if the variables oneither side of the operator pointto the same object and false otherwise.
+x is y, here is results in1 if id(x) equals id(y).
+
+is not Evaluates to false if the variables oneither side of the operator pointto the same object and true otherwise.
+x is not y, here is not results in1 if id(x) is not equalto id(y).
