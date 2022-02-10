@@ -14,7 +14,7 @@ print(courses[0:-2])
 courses.append("Arts") # add at the end
 courses.insert(2, "CompSc") # adds at certain index
 
-courses.pop() # remove last element
+courses.pop() # remove last element and returns value 
 courses.remove("CompSc") # removes certain element
 
 print(courses.index("Bio")) # returns index of element, value error if not present
